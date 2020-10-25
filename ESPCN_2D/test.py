@@ -52,8 +52,6 @@ def calculate_SSIM(input, prediction):
     ssim_score = ssim(input, prediction)
     return ssim_score
 
-depth = 10
-
 x1, x2, y1, y2 = 250,300,350,400
 locations = [x1, x2, y1, y2]
 def locations_LR(loc = locations):
