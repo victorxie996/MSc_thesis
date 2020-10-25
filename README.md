@@ -6,7 +6,11 @@ The abdominal dataset used in the paper can be found in http://medicaldecathlon.
 
 # CNN architectures
 List of super-resolution network architectures we cited and implemented in our paper:
-# ESPCN: https://arxiv.org/pdf/1609.05158.pdf
-# SRResNet: https://arxiv.org/abs/1609.04802
-# ESRGAN: https://github.com/xinntao/ESRGAN
-# SFTGAN: https://github.com/xinntao/SFTGAN
+
+ESPCN: https://arxiv.org/pdf/1609.05158.pdf
+
+SRResNet: https://arxiv.org/abs/1609.04802
+
+ESRGAN: https://github.com/xinntao/ESRGAN
+
+SFTGAN: https://github.com/xinntao/SFTGAN
