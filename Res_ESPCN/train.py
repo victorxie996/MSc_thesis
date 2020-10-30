@@ -33,7 +33,7 @@ def train(train_set, optimizer, model, criterion, epoch):
             print("===> Epoch[{}]({}/{}): Loss: {:.5f}".format(epoch, iteration, len(train_set), loss.item()))
 
 def save_checkpoint(model, epoch):
-    model_out_path = "/content/drive/My Drive/Notebooks/SRResNet_ESPCN/epoch_{}.pth".format(epoch)
+    model_out_path = "../epoch_{}.pth".format(epoch)
     state = {"epoch": epoch, "model": model,
              'avg_psnr': avg_psnr_list,
              'optimizer_state_dict': optimizer.state_dict(),
@@ -57,7 +57,7 @@ criterion = nn.MSELoss(size_average=False)
 model = model.cuda()
 
 print("===> Loading model")
-weight = torch.load('/content/drive/My Drive/Notebooks/SRResNet_ESPCN/epoch_101.pth')
+weight = torch.load('../epoch_101.pth')
 model.load_state_dict(weight['model'].state_dict())
 avg_psnr_list = weight['avg_psnr']
 avg_ssim_list = weight['ssim_']
