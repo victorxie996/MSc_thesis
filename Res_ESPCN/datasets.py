@@ -4,6 +4,7 @@ import numpy as np
 from torch.nn.functional import interpolate
 import nibabel as nib
 import os
+from utils import image_preprocessing
 
 class TrainSetLoader(data.Dataset):
     def __init__(self, image_dir, batch_size, upscale_factor):
