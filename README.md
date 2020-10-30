@@ -8,5 +8,4 @@ Master thesis done in Imperial College London, supervised by [Dr Wenjia Bai](htt
 
 # Result Visualisation
 ![image](https://github.com/victorxie996/MSc_thesis/blob/main/img/result_visual.png)
-![image](https://github.com/victorxie996/MSc_thesis/blob/main/img/result_visual2.png)
 
