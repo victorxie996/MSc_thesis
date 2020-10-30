@@ -2,7 +2,7 @@
 Master thesis done in Imperial College London, supervised by [Dr Wenjia Bai](https://www.doc.ic.ac.uk/~wbai/web/) at Data Science Institue.
 
 # Network Architectures
-
+![image](https://github.com/victorxie996/MSc_thesis/blob/main/img/2d_espcn.png)
 
 
 # Data
