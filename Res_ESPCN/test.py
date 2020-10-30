@@ -16,7 +16,7 @@ device = torch.device("cuda")
 
 
 def save_checkpoint(model, epoch):
-    model_out_path = "/content/drive/My Drive/Notebooks/results/epoch_{}.pth".format(epoch)
+    model_out_path = "../epoch_{}.pth".format(epoch)
     state = {"epoch": epoch, "model": model, 'avg_psnr': avg_psnr_list}
 
     torch.save(state, model_out_path)
